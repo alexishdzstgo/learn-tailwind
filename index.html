@@ -5,23 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind-learning</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="bg-slate-500 bg-inherit">
+</head> 
+<body class="max-w-xl mx-auto border border-black
+    min-h-dvh
+    bg-gradient-to-b from-black via-sky-950 to-gray-800
+    ">
     <header class="text-white">
+
         <h1>midu.links</h1>
         <p>Enlaces</p>
-        <svg width="28" height="28" >
-            <use xlink:href="./assets/sprite.svg#twitch" />
-        </svg>
-        <svg width="28" height="28" >
-            <use xlink:href="./assets/sprite.svg#instagram" />
-        </svg>
-        <svg width="28" height="28" >
-            <use xlink:href="./assets/sprite.svg#instagram" />
-        </svg>
-        <svg width="28" height="28" >
-            <use xlink:href="./assets/sprite.svg#instagram" />
-        </svg>
+        <section class="flex gap-2">
+            <a class="bg-purple-100 p-2 size-12 flex items-center justify-center
+            rounded-full hover:scale-110 transition-transform"
+            href="#" target="_blank" 
+            aria-label="Twitch" title="Ir a twitch">
+                <svg width="28" height="28" >
+                    <use xlink:href="./assets/sprite.svg#twitch" />
+                </svg>
+            </a>
+            <a class="bg-black p-2 size-12 flex items-center justify-center
+            rounded-full hover:scale-110 transition-transform"
+            href="#" target="_blank" 
+            aria-label="Twitch" title="Ir a github">
+                <svg width="28" height="28" >
+                    <use xlink:href="./assets/sprite.svg#github" />
+                </svg>
+            </a>
+            <a class="p-2 size-12 flex items-center justify-center
+            rounded-full hover:scale-110
+            transition-transform bg-gradient-to-tr
+             from-yellow-300 via-pink-600 to-purple-600" 
+            href="#" target="_blank" 
+            aria-label="Twitch" title="Ir a Instagram">
+                <svg width="28" height="28" >
+                    <use xlink:href="./assets/sprite.svg#instagram" />
+                </svg>
+            </a>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:scale-110 transition-transform"
+            href="#" target="_blank" 
+            aria-label="Twitch" title="Ir a Linkedin">
+                <svg width="28" height="28" >
+                    <use xlink:href="./assets/sprite.svg#linkedin" />
+                </svg>
+            </a>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:scale-110 transition-transform"
+            href="#" target="_blank" 
+            aria-label="Twitch" title="Ir a youtube">
+                <svg width="28" height="28" >
+                    <use xlink:href="./assets/sprite.svg#youtube" />
+                </svg>
+            </a>
+            <a class="bg-black p-2 size-12 flex items-center justify-center
+            rounded-full hover:scale-110 transition-transform"
+            href="#" target="_blank" 
+            aria-label="Twitch" title="Ir a x">
+                <svg width="28" height="28" >
+                    <use xlink:href="./assets/sprite.svg#x" />
+                </svg>
+            </a>
+        </section>
+
     </header>
     <main>
         Aqui van los cursos que hacemos
